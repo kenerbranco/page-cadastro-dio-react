@@ -21,23 +21,27 @@ export const Row = styled.div`
 `
 
 export const HomeBtn = styled.a`
+    box-sizing: border-box;
     width: 60px;
     height: 22px;
-    font-size: 1.1em;
+    font-size: 1em;
     text-align: center;
     margin-right: 6px;
     margin-left: 6px;
+    padding-top: 3px;
 `
 
 export const Btn = styled.a`
+    box-sizing: border-box;
     width: 120px;
     height: 22px;
-    font-size: 1.1em;
+    font-size: 1em;
     text-align: center;
     border-radius: 11px;
     background-color: #565656;
     margin-right: 6px;
     margin-left: 6px;
+    padding-top: 3px;
 `
 
 export const Img = styled.img`

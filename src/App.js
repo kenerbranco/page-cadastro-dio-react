@@ -1,8 +1,14 @@
-import { Header } from '../src/components/Header/index';
+import { Container } from './style';
+import { Header } from './components/Header';
+import { Main } from './components/Main';
+
 
 function App() {
   return (
-    <Header />
+    <Container>
+      <Header />
+      <Main />
+    </Container>
   );
 }
 
