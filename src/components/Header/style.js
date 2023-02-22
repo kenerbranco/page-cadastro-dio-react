@@ -29,6 +29,10 @@ export const HomeBtn = styled.a`
     margin-right: 6px;
     margin-left: 6px;
     padding-top: 3px;
+
+    &:hover {
+        cursor: pointer;
+    }
 `
 
 export const Btn = styled.a`
@@ -42,10 +46,20 @@ export const Btn = styled.a`
     margin-right: 6px;
     margin-left: 6px;
     padding-top: 3px;
+
+    &:hover {
+        outline: 2px solid #ffffff;
+        cursor: pointer;
+    }
 `
 
 export const Img = styled.img`
     width: 63px;
     heigth: 25px;
     margin-left: 34px;
+
+    &:hover {
+        outline: 2px solid #ffffff;
+        cursor: pointer;
+    }
 `

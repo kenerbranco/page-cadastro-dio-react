@@ -12,7 +12,9 @@ import {
         FormInput, 
         FormButton, 
         FormSubP, 
-        FormStrong 
+        FormStrong,
+        BoxInput,
+        ContainerInput 
         } from './style';
 
 const Main = () => {
@@ -26,18 +28,20 @@ const Main = () => {
                 <FormP>
                     Crie sua conta e make the change._
                 </FormP>
-                <FormP>
-                    <MdOutlinePersonOutline />
-                    <FormInput placeholder='Nome Completo'></FormInput>
-                </FormP>
-                <FormP>
-                    <MdMailOutline />
-                    <FormInput placeholder='E-mail'></FormInput>
-                </FormP>
-                <FormP>
-                    <MdLockOutline />
-                    <FormInput placeholder='Senha'></FormInput>
-                </FormP>
+                <ContainerInput>
+                    <BoxInput>
+                        <MdOutlinePersonOutline />
+                        <FormInput placeholder='Nome Completo'></FormInput>
+                    </BoxInput>
+                    <BoxInput>
+                        <MdMailOutline />
+                        <FormInput placeholder='E-mail'></FormInput>
+                    </BoxInput>
+                    <BoxInput>
+                        <MdLockOutline />
+                        <FormInput placeholder='Senha'></FormInput>
+                    </BoxInput>
+                </ContainerInput>
                 <FormButton>Criar minha conta</FormButton>
                 <FormP>
                     Ao clicar em "criar minha conta grátis", declaro que aceito as Políticas de Privacidade e os Termos de Uso da DIO.
